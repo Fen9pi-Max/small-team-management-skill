@@ -1,0 +1,50 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "LICENSE": "664951bed1d38ad7a32662fe4fe3bb8439e8b9c2669b7ad2e8c8d1db3ef04659",
+    "README.md": "15c82dc1899eda62fc108f8476b234edd68e3cab452fdbfa92f59bd55274386a",
+    "SKILL.md": "b50fe12368e56c29349d99a7b1427a35930dcbc2449fa2db4d1aecf0298dbdd3",
+    "install.sh": "6bbb1256500f359374f44ee3c38b316f2ca90decbb8b931ee2aaf6fd519fab54",
+    "references/capabilities/stm-complaint-conversion.md": "8082d304737d0e855ce0b6dc879d9e37486e767031653b383ba3e0c1eda51442",
+    "references/capabilities/stm-conflict-mediation.md": "9b15e753845d279c66bf35e5f305441165cb5449e03f4e9af1246b925ab0af6a",
+    "references/capabilities/stm-employee-experience.md": "af98bd82ef3370d92a032af2812f67514d66f0b4cdad22df9c42ea091373bfd7",
+    "references/capabilities/stm-experimentation-speed.md": "add8bbd3fc96ea41e90b549ed06877202b4200f060926b9caf32c0fb65dd6516",
+    "references/capabilities/stm-feedback-feedforward.md": "402e614fbee045f042ee28c968ffa66314eeefc397045c78175cfe18df62acc0",
+    "references/capabilities/stm-five-factors-diagnostic.md": "94e79b5da5b43a6eb8776c4803124c68476b69d96c02be6fc5dd1c48869346a3",
+    "references/capabilities/stm-integration-manager.md": "902e206077e4c86d42988d49ac89b018c478edc387851132e3e9fabb361f60e1",
+    "references/capabilities/stm-manager-eight-traits.md": "8c4f3114dcb91d51de4d1abfaa99279781c62a177e4ffb4b56b8e28a72fdb270",
+    "references/capabilities/stm-manager-posture.md": "6e4feac49f23df824f0e16b116d578fc34f7c4afb5fedaf34ac75c918525bd7a",
+    "references/capabilities/stm-manager-role-lens.md": "938dadb52dffddd78b1b6dfda54e17052f63a980246c66d26df0e340f1c3b4a2",
+    "references/capabilities/stm-mechanism-design.md": "4915aa92945c926acf92f11b5156098396ae69648820f9c5cbb6f309e2278d6b",
+    "references/capabilities/stm-okr-setting.md": "8ceec9a59d4678ae258e22e083e5888ac93e5aa23f9dfc9df2be4439786ded41",
+    "references/capabilities/stm-one-on-one-coaching.md": "38af049f6140c65dda04db94bfe12adab6e502255091ee374a2faaa24f86ba6b",
+    "references/capabilities/stm-reflection-rhythm.md": "dae6eecdafee137059746d8f67e0602b37c0bd4263b714ef63596f5ee01762b1",
+    "references/capabilities/stm-situational-communication.md": "e75d475913163cebc5eb38b01ee6699c14bf33ea03eb4f7ed3384d5db25cec97",
+    "references/capabilities/stm-subtraction-evaluation.md": "373939f270c6df84927527e402659392af3783b6cf3200ecab71d6082ba4082a",
+    "references/capabilities/stm-team-composition.md": "8040730c6c4248f9d113dfb59a819c6ca246e93d639817d3417c007eac12c16d",
+    "references/capability-index.md": "50cd34db5415961ef41fa4f9f4dceee52a6603767ea2cabc6ebecc5ae9156c16",
+    "references/cheatsheet.md": "b53ede6a09e5c3533f59421df7fbf8935093b2cb1e9945fff112701c88b317be",
+    "references/glossary.md": "33974f6965701d684e0c5e4e658fb18290d334ad5b9f3a6001551cddfa82aa55",
+    "references/overview.md": "119b96b6a92ecd98c1cb9e5ae1da5d53f44fa1113ab097ccc84e7965be8c8a2f"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖 | 发布整理(README/LICENSE/install.sh)后重封印(前序编译批次: run-20261021-085121-5289ce)",
+  "bundle_id": "bundle.small-team-management",
+  "bundle_sha256": "53eb31c45e96ce98a2a26fb3bca2a566eb9032b6c0c4c8d743d504bba7823de1",
+  "variant": "single",
+  "run_id": "reseal-19d11fd9",
+  "decision": {
+    "schema_version": 1,
+    "requested": "auto",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 5,
+    "capability_count": 17,
+    "reasons": [
+      "5 个能力通过晋级门，但触发验证阈值为 TBD-after-baseline 尚未启用；按 single-first 原则先推荐 single，拆分由使用证据驱动"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 5 个晋级 Skill，共 6 个可发现入口）",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}
